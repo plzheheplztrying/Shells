@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <button id="uploadButton">Upload</button>
     <progress id="progressBar" value="0" max="100" style="display:none;"></progress>
     <div id="status"></div>
-
+<!---- # TeamRedHead --- >
     <script>
         document.getElementById('uploadButton').addEventListener('click', function() {
             const fileInput = document.getElementById('fileInput');
